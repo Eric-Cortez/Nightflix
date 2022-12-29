@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E50914;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar div {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navbar div:hover {
+    color: black;
+    cursor: pointer;
+
+}
